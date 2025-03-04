@@ -17,9 +17,9 @@ const fs = require("fs");
 const { exit } = require("process");
 const { log } = require("console");
 
-const APPSYNC_ENDPOINT =
-  "https://n3r6lwce2rhilmn6xrgwmtfvdq.appsync-api.ap-south-1.amazonaws.com/graphql";
-const API_KEY = "da2-cco7p4srwzcp7nboiwrbzdgw6i";
+// Update these two values
+const APPSYNC_ENDPOINT = "your appsync api endpoint";
+const API_KEY = "your api key";
 
 if (isMainThread) {
   // List of files to download
