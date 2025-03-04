@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "adm-zip": "^0.5.16",
+    "aws-amplify": "^6.13.2",
+    "axios": "^1.8.1",
+    "csv-writer": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security"
+  },
+  "scripts": {
+    "run-all": "node downloadFiles.js && node createCSV.js"
+  }
+}
